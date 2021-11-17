@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
@@ -14,33 +14,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.4.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.4.0" />
     <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
-    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
-    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfMaps" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.Expander" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBadgeView" Version="18.4.0.31" />
-    <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="18.4.0.31" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
-    <PackageReference Include="Syncfusion.Xamarin.Core" Version="18.4.0.31" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfMaps" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.Expander" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBadgeView" Version="19.3.0.54" />
+    <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="19.3.0.54" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="19.3.0.54" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="AppLayout\Icons\bookmark.png" />

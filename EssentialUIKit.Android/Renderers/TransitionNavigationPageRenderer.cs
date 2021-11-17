@@ -15,7 +15,7 @@ namespace EssentialUIKit.Droid.Renderers
         {
         }
 
-        protected override void SetupPageTransition(FragmentTransaction transaction, bool isPush)
+        protected override void SetupPageTransition(AndroidX.Fragment.App.FragmentTransaction transaction, bool isPush)
         {
             if (transaction != null)
             {

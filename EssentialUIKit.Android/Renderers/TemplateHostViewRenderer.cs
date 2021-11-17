@@ -1,5 +1,6 @@
 ﻿using Android.Content;
 using Android.Widget;
+using AndroidX.Fragment.App;
 using EssentialUIKit.AppLayout.Controls;
 using EssentialUIKit.Droid.Renderers;
 using Xamarin.Forms;
@@ -42,7 +43,7 @@ namespace EssentialUIKit.Droid.Renderers
         {
             if (this.Control != null && this.Control.Handle != System.IntPtr.Zero)
             {
-                var supportFragmentManager = (this.Control.Context as Android.Support.V4.App.FragmentActivity).SupportFragmentManager;
+                var supportFragmentManager = (this.Control.Context as FragmentActivity).SupportFragmentManager;
                 supportFragmentManager?.BeginTransaction().Remove(supportFragmentManager.Fragments[supportFragmentManager.Fragments.Count - 1]).Commit();
 
                 this.Control?.RemoveFromParent();
